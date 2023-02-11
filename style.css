@@ -118,3 +118,15 @@ input:focus{
     width: 100vw;
     box-shadow: 5px 5px 5px rgb(184, 183, 183);
 }
+
+
+.submit_button {
+    padding: 10px 30px;
+    background-color: gray;
+    color: antiquewhite;
+    font-size: 28px;
+    position: absolute;
+    border-radius: 40px;
+    top: 680px;
+    flex: 0 0 0;
+}
