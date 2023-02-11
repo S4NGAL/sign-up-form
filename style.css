@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Norse'; 
+    src: url('./sources/fonts/Norse-Bold.eot');
+    src: url('./sources/fonts/Norse-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./sources/fonts/Norse-Bold.woff2') format('woff2'),
+        url('./sources/fonts/Norse-Bold.woff') format('woff'),
+        url('./sources/fonts/Norse-Bold.ttf') format('truetype'),
+        url('./sources/fonts/Norse-Bold.svg#Norse-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: '28 Days Later';
+    src: url('./sources/fonts/28DaysLater.eot');
+    src: url('./sources/fonts/28DaysLater.eot?#iefix') format('embedded-opentype'),
+        url('./sources/fonts/28DaysLater.woff2') format('woff2'),
+        url('./sources/fonts/28DaysLater.woff') format('woff'),
+        url('./sources/fonts/28DaysLater.ttf') format('truetype'),
+        url('./sources/fonts/28DaysLater.svg#28DaysLater') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    background-color: rgba(204, 202, 199, 0.993);
+    margin: 0;
+    display: flex;
+}
+
+.intro-text {
+    width: 480px;
+}
+
+.background-image {
+    width: 500px;
+    height: 100vh;
+    object-fit: cover; 
+}
+
+
+.left-container {
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    top: 120px;
+    height: auto;
+    width: 500px;
+    background-color: rgba(73, 70, 70, 0.616);
+    position: absolute;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.title {
+    font-family: '28 Days Later';
+    position: absolute;
+    font-size: 54px;
+    font-weight: 900;
+    left: 180px;
+}
+
+.form-place {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    
+    font-family: '28 Days Later';
+    font-size: 24px;
+}
+
+input {
+    display: block;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+
+.form1 {
+    display: flex;
+    gap: 100px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.eot');
+    src: url('Norse-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Norse-Bold.woff2') format('woff2'),
+        url('Norse-Bold.woff') format('woff'),
+        url('Norse-Bold.ttf') format('truetype'),
+        url('Norse-Bold.svg#Norse-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '28 Days Later';
+    src: url('28DaysLater.eot');
+    src: url('28DaysLater.eot?#iefix') format('embedded-opentype'),
+        url('28DaysLater.woff2') format('woff2'),
+        url('28DaysLater.woff') format('woff'),
+        url('28DaysLater.ttf') format('truetype'),
+        url('28DaysLater.svg#28DaysLater') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
