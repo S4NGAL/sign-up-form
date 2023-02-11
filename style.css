@@ -83,12 +83,6 @@ p {
     font-size: 24px;
 }
 
-input {
-    display: block;
-    border-radius: 4px;
-    font-size: medium;
-}
-
 
 .form1 {
     display: flex;
@@ -97,4 +91,20 @@ input {
 
 .input-container {
     margin-bottom: 20px;
+}
+
+input {
+    border-color: rgba(129, 129, 129, 0.432);
+    padding: 4px;
+    box-shadow: none;
+    display: block;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+
+
+input:focus{
+    box-shadow: 5px 5px 5px rgba(83, 81, 81, 0.253);
+    border: 3px solid rgb(0, 183, 255);
 }
