@@ -35,6 +35,8 @@ body {
 }
 
 .intro-text {
+    font-family: '28 Days Later';
+    font-size: 24px;
     width: 480px;
 }
 
@@ -77,10 +79,12 @@ body {
     flex-direction: column;
 }
 
-p {
-    
-    font-family: '28 Days Later';
-    font-size: 24px;
+#image_source {
+    font-size: 18px;
+    color: aliceblue;
+    position: absolute;
+    top: 850px;
+    left: 160px;
 }
 
 
