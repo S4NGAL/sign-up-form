@@ -74,6 +74,7 @@ body {
 }
 
 .form-place {
+    margin-top: 130px;
     margin-left: 50px;
     display: flex;
     flex-direction: column;
@@ -109,6 +110,11 @@ input {
 
 
 input:focus{
-    box-shadow: 5px 5px 5px rgba(83, 81, 81, 0.253);
+    box-shadow: 5px 5px 5px rgba(110, 107, 107, 0.253);
     border: 3px solid rgb(0, 183, 255);
+}
+
+#for_background {
+    width: 100vw;
+    box-shadow: 5px 5px 5px rgb(184, 183, 183);
 }
